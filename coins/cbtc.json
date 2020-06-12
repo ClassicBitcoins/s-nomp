@@ -1,0 +1,23 @@
+{
+    "name": "cbtc",
+    "symbol": "cbtc",
+    "algorithm": "equihash",
+    "requireShielding": true,
+    "payFoundersReward": true,
+    "percentFoundersReward": 5,
+    "foundersRewardAddressChangeInterval": 1200000,
+    "maxFoundersRewardBlockHeight": 1400000,
+    "vFoundersRewardAddress": [
+     "swzaebQB4jVzESmoDp9WzLmBWo4GVy84PZq",
+     "sws9DWZ1aRRPfNb2bUALBfQdhm9ebPVho7T"
+    ],
+
+    "txfee": 0.0001,
+    "sapling": true,
+    "peerMagic": "e8b22d2f",
+    "explorer": {
+        "txURL": "http://bitclassic.info/explorer/tx/",
+        "blockURL": "http://bitclassic.info/explorer/block/",
+        "_comment_explorer": "This is the coin's explorer full base url for transaction and blocks i.e. (https://explorer.coin.com/tx/). The pool will automatically add the transaction id or block id at the end."
+    }
+}
